@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
 }
 
 .App-logo {
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.upcoming {
+  background-color: rgb(131, 205, 234);
+  border-style: solid;
+  padding: 20px;
 }

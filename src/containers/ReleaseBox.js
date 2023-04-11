@@ -39,8 +39,10 @@ const ReleaseBox = () => {
   return (
     <>
       <h2>Upcoming Film Releases for UK</h2>
+      <br />
       <ReleaseList releases={releases} />
       <ReleaseForm onReleaseSubmit={addRelease} />
+      <br />
       <UpcomingLink />
     </>
   );
